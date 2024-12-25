@@ -1,28 +1,63 @@
-# Node.js dependencies
+# Node modules
 node_modules/
 
-# Logs
-logs/
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# Environment variables
-.env
-
-# Build output
+# Build directories
 dist/
 build/
 
-# IDE specific files
+# Environment files
+.env
+
+# Log files
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE files
 .vscode/
 .idea/
 
 # Temporary files
 *.tmp
 *.swp
+
+# Coverage directory used by testing tools
+coverage/
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Parcel-bundler cache (https://parceljs.org/)
+.cache/
+
+# Next.js build output
+.next/
+
+# Nuxt.js build output
+.nuxt/
+
+# Gatsby files
+.cache/
+public/
+
+# Gridsome files
+.cache/
+dist/
+
+# Vuepress build output
+.vuepress/dist/
+
+# Hugo files
+public/
+
+# Jekyll files
+_site/
+
+# Temporary files
+tmp/
+temp/
